@@ -4,7 +4,8 @@
   "description": "hapi server to init letsencrypt certs",
   "main": "lib/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node lib/start.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/zoe-1/lehapi/issues"
   },
-  "homepage": "https://github.com/zoe-1/lehapi#readme"
+  "homepage": "https://github.com/zoe-1/lehapi#readme",
+  "dependencies": {
+    "glue": "^4.1.0",
+    "hapi": "^16.1.0",
+    "hoek": "^4.1.0",
+    "inert": "^4.1.0",
+    "pug": "^2.0.0-beta6",
+    "vision": "^4.1.1"
+  }
 }
