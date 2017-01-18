@@ -1,3 +1,3 @@
 # lehapi
 
-init letsencrypt
+init letsencrypt go
