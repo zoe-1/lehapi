@@ -1,0 +1,23 @@
+{
+  "name": "lehapi",
+  "version": "0.0.1",
+  "description": "hapi server to init letsencrypt certs",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoe-1/lehapi.git"
+  },
+  "keywords": [
+    "hapi",
+    "letsencrypt"
+  ],
+  "author": "Jon Swenson",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/zoe-1/lehapi/issues"
+  },
+  "homepage": "https://github.com/zoe-1/lehapi#readme"
+}
